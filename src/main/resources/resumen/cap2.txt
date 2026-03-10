@@ -1,0 +1,11 @@
+2.1.2 Creating a controller class
+@Slf4j
+@ModelAttribute
+2.1.3 Designing the view
+
+<img th:src="@{/images/TacoCloud.png}"/> -->llama de static
+2.2 Processing form submission
+Parámetro	Anotación	Motivo
+Taco taco	Ninguna	Se crea nuevo desde los datos del formulario
+TacoOrder tacoOrder	@ModelAttribute	Recupera un objeto existente en el modelo o sesión, no uno nuevo
+
