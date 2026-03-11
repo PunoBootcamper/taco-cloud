@@ -9,3 +9,6 @@ Parámetro	Anotación	Motivo
 Taco taco	Ninguna	Se crea nuevo desde los datos del formulario
 TacoOrder tacoOrder	@ModelAttribute	Recupera un objeto existente en el modelo o sesión, no uno nuevo
 
+2.3 Validating form input
+2.3.1 Declaring validation rules
+2.3.2 Performing validation at form binding
