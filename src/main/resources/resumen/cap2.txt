@@ -1,3 +1,6 @@
+2 Developing web applications
+2.1 Displaying information
+2.1.1 Establishing the domain
 2.1.2 Creating a controller class
 @Slf4j
 @ModelAttribute
