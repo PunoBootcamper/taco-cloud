@@ -16,3 +16,4 @@ TacoOrder tacoOrder	@ModelAttribute	Recupera un objeto existente en el modelo o 
 
 2.4 Working with view controllers
 2.5 Choosing a view template library
+2.5.1 Caching templates
