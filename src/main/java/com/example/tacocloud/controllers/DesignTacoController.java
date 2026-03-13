@@ -73,6 +73,7 @@ public class DesignTacoController {
             return "design";
         }
 
+        taco.setCreatedAt(new java.util.Date());
         tacoOrder.addTaco(taco);
         log.info("Processing taco: {}", taco);
 

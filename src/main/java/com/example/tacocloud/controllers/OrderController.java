@@ -38,6 +38,7 @@ public class OrderController {
             return "orderForm";
         }
 
+        order.setPlacedAt(new java.util.Date());
         orderRepo.save(order);
         sessionStatus.setComplete();
 
