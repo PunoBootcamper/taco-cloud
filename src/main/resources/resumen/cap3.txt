@@ -14,3 +14,46 @@ GeneratedKeyHolder
 3.2.3 Annotating the domain for persistence
 3.2.4 Preloading data with CommandLineRunner
 3.3 Persisting data with Spring Data JPA
+3.3.1 Adding Spring Data JPA to the project
+3.3.2 Annotating the domain as entities
+3.3.3 Declaring JPA repositories
+3.3.4 Customizing repositories
+In addition to an implicit Equals operation and the Between operation, Spring Data method signatures can also include any of the following operators:
+
+IsAfter, After, IsGreaterThan, GreaterThan
+
+IsGreaterThanEqual, GreaterThanEqual
+
+IsBefore, Before, IsLessThan, LessThan
+
+IsLessThanEqual, LessThanEqual
+
+IsBetween, Between
+
+IsNull, Null
+
+IsNotNull, NotNull
+
+IsIn, In
+
+IsNotIn, NotIn
+
+IsStartingWith, StartingWith, StartsWith
+
+IsEndingWith, EndingWith, EndsWith
+
+IsContaining, Containing, Contains
+
+IsLike, Like
+
+IsNotLike, NotLike
+
+IsTrue, True
+
+IsFalse, False
+
+Is, Equals
+
+IsNot, Not
+
+IgnoringCase, IgnoresCase
