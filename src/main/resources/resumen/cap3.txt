@@ -9,3 +9,8 @@ Inserting a row
 3.1.4 Inserting data
 GeneratedKeyHolder
 3.2 Working with Spring Data JDBC
+3.2.1 Adding Spring Data JDBC to the build
+3.2.2 Defining repository interfaces
+3.2.3 Annotating the domain for persistence
+3.2.4 Preloading data with CommandLineRunner
+3.3 Persisting data with Spring Data JPA
