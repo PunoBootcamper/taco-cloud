@@ -2,3 +2,15 @@
 5.1 Enabling Spring Security
 5.2 Configuring authentication
 5.2.1 In-memory user details service
+5.2.2 Customizing user authentication
+Defining the user domain and persistence
+Creating a user details service
+Registering users
+5.3 Securing web requests
+5.3.1 Securing requests
+5.3.2 Creating a custom login page
+5.3.3 Enabling third-party authentication
+5.3.4 Preventing cross-site request forgery
+5.4 Applying method-level security
+5.5 Knowing your user
+

@@ -7,7 +7,9 @@
 </head>
 
 <body>
-
+<form method="POST" th:action="@{/logout}">
+    <input type="submit" value="Logout"/>
+</form>
 <!--/*@thymesVar id="tacoOrder" type="com.example.tacocloud.domain.TacoOrder"*/-->
 <form method="POST" th:action="@{/orders}" th:object="${tacoOrder}">
     <h1>Order your taco creations!</h1>
