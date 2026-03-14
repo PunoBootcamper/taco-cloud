@@ -1,0 +1,4 @@
+5 Securing Spring
+5.1 Enabling Spring Security
+5.2 Configuring authentication
+5.2.1 In-memory user details service
