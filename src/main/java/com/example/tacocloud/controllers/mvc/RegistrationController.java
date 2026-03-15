@@ -1,4 +1,4 @@
-package com.example.tacocloud.controllers;
+package com.example.tacocloud.controllers.mvc;
 
 import com.example.tacocloud.domain.RegistrationForm;
 import com.example.tacocloud.repository.UserRepository;

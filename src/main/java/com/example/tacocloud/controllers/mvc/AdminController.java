@@ -1,4 +1,4 @@
-package com.example.tacocloud.controllers;
+package com.example.tacocloud.controllers.mvc;
 
 import com.example.tacocloud.service.OrderAdminService;
 import org.springframework.stereotype.Controller;

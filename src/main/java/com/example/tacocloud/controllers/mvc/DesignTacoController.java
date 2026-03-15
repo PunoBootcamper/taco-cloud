@@ -1,4 +1,4 @@
-package com.example.tacocloud.controllers;
+package com.example.tacocloud.controllers.mvc;
 
 import com.example.tacocloud.domain.Ingredient;
 import com.example.tacocloud.domain.Ingredient.Type;
@@ -13,7 +13,6 @@ import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 

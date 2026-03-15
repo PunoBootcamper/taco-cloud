@@ -1,12 +1,10 @@
-package com.example.tacocloud.controllers;
+package com.example.tacocloud.controllers.mvc;
 
 import com.example.tacocloud.domain.TacoOrder;
 import com.example.tacocloud.domain.User;
 import com.example.tacocloud.properties.OrderProps;
 import com.example.tacocloud.repository.OrderRepository;
-import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -20,7 +18,6 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
 import javax.validation.Valid;
-import java.security.Principal;
 
 @Slf4j
 @Controller
